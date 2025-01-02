@@ -373,3 +373,55 @@ ul{
         flex-basis: 100%;
     } */
 }
+
+/* All Products Page CSS */
+.row-2 {
+    justify-content: space-between; 
+    /* Todo About this justify-content */
+    margin: 100px auto 50px;
+}
+
+/* .row-2 h2{
+    color: green;
+} */
+
+select {
+    border: 1px solid #ff523b;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+.page-btn {
+    margin: 0 auto 80px;
+    display: flex;
+    gap: 10px ;
+}
+
+.page-btn span {
+    /* display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px ;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; */
+
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ff523b;
+    align-items: center;
+    border-radius: 3px ;
+    cursor: pointer;
+    
+}
+
+.page-btn span:hover{
+    color: white;
+    background-color: #ff523b;
+}
